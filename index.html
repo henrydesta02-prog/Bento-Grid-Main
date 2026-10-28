@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Bento grid</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{box-sizing: border-box;}
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{background-color: white;
+    min-height: 100vh;
+  width:100%;
+margin:0;
+position:relative;}
+.create{width:150px;
+height:200px;
+background-color: rgb(235, 203, 208);
+border-radius: 5PX;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+left:70px;
+top:50px;
+padding: 0 20px;}
+.p{
+font-weight: bold;
+font-size: 1.5em;
+line-height: 0.8;
+}
+span{color:rgb(62, 102, 161);
+}
+img{width:90px;
+position:absolute;
+bottom:5px;
+left:20px;}
+.social{position:absolute;
+width:250px;
+height:150px;
+background-color: rgb(93, 93, 235);
+top:50px;
+left:230px;
+border-radius: 5px;}
+h1{color: white;
+font-size: 1.9em;
+text-align: center;}
+.ten{color:rgba(247, 227, 48, 0.952);}
+.image1{position: absolute;
+bottom:40px;
+left:72px;}
+.over{position: absolute;
+bottom:15px;
+left:65px;
+color: white;
+font-size: 0.6em;}
+.multiple{position: absolute;
+width:122px;
+height:140px;
+background-color: whitesmoke;
+top:220px;
+left:230px;
+border-radius: 5px;
+overflow: hidden;}
+.manage{position: absolute;
+bottom:0;
+font-size: 1.1em;
+font-weight: bold;
+left:10px;}
+.image5{position:absolute;
+top:2px;
+left:13px;
+width: 145px;
+height:30px}
+.consistent{position: absolute;
+top:220px;
+left:360px;
+border-radius:5px;
+background-color: rgb(248, 191, 4);
+width:120px;
+height:140px;
+overflow:hidden;}
+.maintain{position:absolute;
+top:-10px;
+font-weight: bold;
+font-size: 1.1em;
+left:10px;}
+.image6{position:absolute;
+width:100px;
+left:8px;
+bottom:-30px;}
+.schedule{position:absolute;
+top:50px;
+border-radius: 5px;
+width:150px;
+height:310px;
+background-color: rgb(211, 228, 238);
+left:500px;
+overflow: hidden;}
+h2{
+font-size: 1.2em;
+text-align: center;
+padding-left:20px;
+padding-right: 20px;
+padding-top: 5px;
+}
+.image3{position:absolute;
+top:80px;
+left:10px;
+height:150px;
+width:220px;
+}
+.optimize{position: absolute;
+bottom: -15px;
+font-size:0.7em ;
+text-align: center;
+padding: 20px;}
+.grow{width:293px;
+height:120px;
+background-color: rgb(93, 93, 235);
+position: absolute;
+border-radius: 5px;
+top:370px;
+left:360px;}
+h3{color:white;
+font-size: 1.3em;}
+.div{width: 150px;
+height: 120px;
+position: absolute;
+right:10px;}
+.image4{width:120px;
+height:110px;}
+.audience{position: absolute;
+width:125px;
+height:123px;
+background-color: whitesmoke;
+top:370px;
+left:230px;
+border-radius: 5px;}
+h4{font-weight: bold;
+font-size: 1.9em;
+position:absolute;
+left:10px;
+top:-30px;}
+.faster{position: absolute;
+left:10px;
+top:35px;
+font-size:0.7em;}
+.image7{position:absolute;
+bottom:15px;}
+.write{width:150px;
+height:230px;
+background-color: rgb(248, 191, 4);
+border-radius: 10PX;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+left:70px;
+top:265px;
+padding: 0 20px;}
+h5{display: flex;
+align-items: center;
+position: absolute;
+top:-20px;
+padding: 0 20px;
+font-size: 1.4em;}
+.image2{width:120px;
+height:110px;}
+footer{position:absolute;
+bottom:0;
+}
+  </style>
+</head>
+<body>
+
+  <div class="social"><h1>Social Media <span class="ten">10x</span> Faster with AI</h1>
+    <img class="image1"src="assets/images/illustration-five-stars.webp">
+  <p class="over">Over 4,000 5-star reviews</p>
+</div>
+
+  <div class="multiple">
+    <img  class="image5" src="assets/images/illustration-multiple-platforms.webp">
+    <p class="manage">Manage multiple accounts and platforms.</p></div>
+
+  <div class="consistent"><p class="maintain">Maintain a consistent posting schedule.</p>
+  <img class="image6" src="assets/images/illustration-consistent-schedule.webp"></div>
+
+  <div class="schedule"><h2 class="h2">Schedule to social media.</h2>
+    <img class="image3" src="assets/images/illustration-schedule-posts.webp">
+  <p class="optimize">Optimize post timings to publish content at the perfect time for your audience.</p></div>
+  
+  <div class="grow"><img class="image4" src="assets/images/illustration-grow-followers.webp">
+    <div class="div"><h3 class="h3">Grow followers with non-stop content.</h3></div></div>
+
+  <div class="audience"><h4>>56%</h4> <p class="faster">faster audience growth</p>
+  <img class="image7" src="assets/images/illustration-audience-growth.webp"></div>
+  
+  <div class="create"><p class="p">Create and schedule content <span class="span">quicker.</span></p>
+  <img src="assets/images/illustration-create-post.webp"></div>
+
+  <div class="write"><h5>Write your content using AI.</h5>
+  <img class="image2" src="assets/images/illustration-ai-content.webp"></div>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Henry Omondi</a>.
+  </footer>
+</body>
+</html>
